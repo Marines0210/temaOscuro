@@ -41,22 +41,23 @@ Size get sizeRadiusExLarge => Size(14.w, 14.h);
 
 //Inicio textos
 //Tamaños
-double get sizeTextH1 => 96.sp;
-double get sizeTextH2 => 60.sp;
-double get sizeTextH3 => 48.sp;
-double get sizeTextH4 => 34.sp;
-double get sizeTextH5 => 24.sp;
-double get sizeTextH6 => 20.sp;
+double get sizeDisplayLarge => 57.sp;
+double get sizeDisplayMedium => 45.sp;
+double get sizeDisplaySmall => 36.sp;
+double get sizeHeadLineLarge => 32.sp;
+double get sizeHeadLineMedium => 28.sp;
+double get sizeHeadLineSmall => 24.sp;
 
-double get sizeTextSubtitle1 => 16.sp;
-double get sizeTextSubtitle2 => 14.sp;
-double get sizeTextBodyText1 => 16.sp;
-double get sizeTextBodyText2 => 18.sp;
-double get sizeTextButton => 14.sp;
-double get sizeTextCaption => 12.sp;
-double get sizeTextOverLine => 12.sp;
+double get sizeTitleLarge => 22.sp;
+double get sizeTitleMedium => 16.sp;
+double get sizeTitleSmall => 14.sp;
+double get sizeLabelLarge => 18.sp;
+double get sizeLabelMedium => 14.sp;
+double get sizeLabelSmall => 11.sp;
+double get sizeBodyLarge => 16.sp;
+double get sizeBodyMedium => 14.sp;
+double get sizeBodySmall => 12.sp;
 //Fin Textos
-
 
 //Ocupa toda la pantalla
 Size get sizeAllScreen=>Size(SizerUtil.width,SizerUtil.height);

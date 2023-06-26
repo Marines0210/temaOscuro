@@ -13,7 +13,7 @@ class LoginScreenState extends State<LoginScreen>{
   @override
   Widget build(BuildContext context) {
     return SafeArea(child: Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.refresh),
         onPressed: (){
@@ -25,7 +25,8 @@ class LoginScreenState extends State<LoginScreen>{
         },
       ),
       //Ejemplo de como mandar a llamar la clase thema y aplicarlo en un texto
-      body: Container(child:Text("Hola mundo",style:Theme.of(context).textTheme.subtitle1)),
+      body: Container(child:Text("Hola mundo",style:
+        Theme.of(context).textTheme.displayLarge)),
     ));
   }
 

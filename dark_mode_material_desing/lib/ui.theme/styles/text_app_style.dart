@@ -19,58 +19,65 @@ TextStyle get _styleDmSans400=>_styleDMSans(FontWeight.w400);
 TextStyle get _styleDmSans700=>_styleDMSans(FontWeight.w700);
 
 
+
 //Tamaño del texto, union de la tipografia y grosor
-TextStyle get _styleH1 => TextStyle(
-  fontSize: sizeTextH1
+TextStyle get _styleDisplayLarge => TextStyle(
+  fontSize: sizeDisplayLarge
 ).merge(_styleIbmPlexSans700);
 
-TextStyle get _styleH2 => TextStyle(
-    fontSize: sizeTextH2
+TextStyle get _styleDisplayMedium=> TextStyle(
+    fontSize: sizeDisplayMedium
 ).merge(_styleIbmPlexSans700);
 
-TextStyle get _styleH3 => TextStyle(
-    fontSize: sizeTextH3
+TextStyle get _styleDisplaySmall=> TextStyle(
+    fontSize: sizeDisplaySmall
 ).merge(_styleIbmPlexSans700);
 
-TextStyle get _styleH4 => TextStyle(
-    fontSize: sizeTextH4
+TextStyle get _styleHeadLineLarge => TextStyle(
+    fontSize: sizeHeadLineLarge
+).merge(_styleIbmPlexSans700);
+
+TextStyle get _styleHeadLineMedium => TextStyle(
+    fontSize: sizeHeadLineMedium
 ).merge(_styleIbmPlexSans600);
 
-TextStyle get _styleH5 => TextStyle(
-    fontSize: sizeTextH5
+TextStyle get _styleHeadLineSmall => TextStyle(
+    fontSize: sizeHeadLineSmall
 ).merge(_styleIbmPlexSans600);
 
-TextStyle get _styleH6 => TextStyle(
-    fontSize: sizeTextH6
+TextStyle get _styleTitleLarge  => TextStyle(
+    fontSize: sizeTitleLarge
 ).merge(_styleIbmPlexSans600);
 
-TextStyle get _styleSubtitle1 => TextStyle(
-    fontSize: sizeTextSubtitle1
+TextStyle get _styleTitleMedium => TextStyle(
+    fontSize: sizeTitleMedium
 ).merge(_styleIbmPlexSans600);
 
-TextStyle get _styleSubtitle2 => TextStyle(
-    fontSize: sizeTextSubtitle2
+TextStyle get _styleTitleSmall => TextStyle(
+    fontSize: sizeTitleSmall
 ).merge(_styleIbmPlexSans600);
 
 
-TextStyle get _styleBodyText1 => TextStyle(
-    fontSize: sizeTextBodyText1
+TextStyle get _styleLabelLarge => TextStyle(
+    fontSize: sizeLabelLarge
 ).merge(_styleDmSans400);
 
-TextStyle get _styleBodyText2 => TextStyle(
-    fontSize: sizeTextBodyText2
+TextStyle get _styleLabelMedium => TextStyle(
+    fontSize: sizeLabelMedium
 ).merge(_styleDmSans400);
 
-TextStyle get _styleButton => TextStyle(
-    fontSize: sizeTextButton
+TextStyle get _styleLabelSmall => TextStyle(
+    fontSize: sizeLabelSmall
 ).merge(_styleDmSans700);
 
-TextStyle get _styleCation => TextStyle(
-    fontSize: sizeTextCaption
+TextStyle get _styleBodyLarge => TextStyle(
+    fontSize: sizeBodyLarge
 ).merge(_styleDmSans400);
 
-TextStyle get _styleOverLine => TextStyle(
-    fontSize: sizeTextOverLine
+TextStyle get _styleBodyMedium => TextStyle(
+    fontSize: sizeBodyMedium
 ).merge(_styleDmSans700);
 
-
+TextStyle get _styleBodySmall => TextStyle(
+    fontSize: sizeBodySmall
+).merge(_styleDmSans700);
