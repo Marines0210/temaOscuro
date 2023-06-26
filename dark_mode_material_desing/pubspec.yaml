@@ -81,10 +81,6 @@ flutter:
     - family: IBMPlexSans-Regular
       fonts:
         - asset: assets/fonts/IBMPlexSans-Regular.ttf
-<<<<<<< HEAD
-  #         weight: 700
-=======
->>>>>>> 93577e4c8c36c2d8e3b1b71c1ae19642bdad049c
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
